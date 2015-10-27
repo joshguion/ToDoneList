@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To-Do List!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <script type="text/html" id="todoneTmpl">
+      <p><i class="fa fa-circle-thin"></i><%= todone %></p>
+    </script>
+  </head>
+  <body>
+
+      <section>
+        <div>
+          <div class="inputDiv">
+            <h1>to_done</h1>
+            <form>
+              <input type="text" name="todoneInput" placeholder="What do you need _done?" id="todoneInput">
+            </form>
+          </div>
+        </div>
+      </section>
+
+<script src="bower_components/underscore/underscore.js"></script>
+  <script src='bower_components/jquery/dist/jquery.js'></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="info.js"></script>
+  </body>
+</html>

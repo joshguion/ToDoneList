@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.inputDiv {
+  background-color: #F5F5F5;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #E5D7D7;
+  padding: 1%;
+  margin-top: 10%; }
+  .inputDiv h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 3%;
+    color: #E5D7D7; }
+  .inputDiv p {
+    width: 98%;
+    background-color: white;
+    padding: 1% 0 1% 1%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    border-bottom: solid 1px #E5D7D7; }
+  .inputDiv #todoneInput {
+    width: 98%;
+    height: 30px;
+    margin-bottom: 2%; }
+
+.completedText {
+  color: #E5D7D7;
+  text-decoration: line-through; }
+
+i {
+  margin-right: 5px; }
