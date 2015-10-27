@@ -13,7 +13,7 @@ $(document).ready(function (){
   	initStyling: function() {},
   	initEvents: function() {
 
-      $('p').on('click', 'i', function (){
+      $('.inputDiv').on('click', 'i', function (){
         $(this).toggleClass('fa fa-check-circle');
         $(this).toggleClass('fa fa-circle-thin');
         $(this).parent().toggleClass('completedText');
@@ -22,9 +22,10 @@ $(document).ready(function (){
       $('form').on('submit', function (event) {
         event.preventDefault();
         var newToDone = {
-          todone: $('input[name="todone"]').val()
+          todone: $('input[name="todoneInput"]').val()
         };
         page.loadTemplate($('.inputDiv'), newToDone, $('#todoneTmpl').html());
+        $('input[name="todoneInput"]').val("");
       });
 
     },
